@@ -11,5 +11,13 @@ function reverseString(string) {
 
 2.
 ```
+function reverseSentence(string) {
+  const sentenceArray = string.split(" ")
+  return sentenceArray.map(word => word.split("").reverse().join(""))
+}
+```
+
+3.
+```
 
 ```
