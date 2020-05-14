@@ -19,5 +19,15 @@ function reverseSentence(string) {
 
 3.
 ```
-
+function howManyNum(num) {
+  const numArray = []
+  for(i=1;i<=num;i++>){
+    if(i%15===0){}
+    else if(i%3===0 || i%5===0){
+      continue
+    }
+    numArray.push(i)
+  }
+  return numArray.length
+}
 ```
